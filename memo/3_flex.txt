@@ -1,0 +1,65 @@
+------------------------------------------------------
+
+.flex
+=> display: flex;
+
+.flex-row
+.flex-col
+=> flex-direction
+
+.flex-wrap
+=> flex-wrap
+
+
+.justify-center
+.justify-between
+.items-center
+.self-auto
+.self-start
+.self-end
+=> align-self
+
+------------------------------------------------------
+
+.flex-1
+.flex-shrink-0
+.flex-auto
+.flex-initial
+.flex-none
+=> flex
+
+------------------------------------------------------
+
+.space-x-1
+.space-y-1
+=> margin을 적용
+
+.gap-N
+.gap-x-N
+.gap-y-N
+=> margin보다 gap이 더좋음
+=> 컨테이너에 적용
+
+! margin, padding은 -가 가능 !
+-p-5
+
+------------------------------------------------------
+
+.leading-9
+=> line-height: 2.25rem
+
+
+.text-center
+=> text-align: center
+
+.order
+.order-none
+=> order
+=> tab
+
+md:
+=> min-width가 600px이상일때
+
+border는 px이다
+
+------------------------------------------------------
