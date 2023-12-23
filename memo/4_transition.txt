@@ -1,0 +1,26 @@
+------------------------------------------------------
+
+모든 translate 지원하지는 않음
+
+.transition
+
+.ease-in-out
+=> transition-timing-function
+
+.delay-150
+=> transition-delay
+
+.duration-300
+=> transition-duration
+
+.-translate-y-1
+
+
+hover:
+!! 조건부이므로 md: 비슷!!
+
+------------------------------------------------------
+
+animation도 별로 지원 안함
+
+------------------------------------------------------

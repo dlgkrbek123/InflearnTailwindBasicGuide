@@ -21,12 +21,13 @@
 
 ------------------------------------------------------
 
+flex
+
 .flex-1
 .flex-shrink-0
-.flex-auto
 .flex-initial
-.flex-none
-=> flex
+.flex-auto => 1 1 auto
+.flex-none => 0 0 auto
 
 ------------------------------------------------------
 
