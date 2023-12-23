@@ -1,0 +1,25 @@
+------------------------------------------------------
+
+sm : @media (min-width: 640px)
+md : @media (min-width: 768px)
+lg : @media (min-width: 1024px)
+xl : @media (min-width: 1280px)
+2xl : @media (min-width: 1536px)
+dark : @media (prefers-color-scheme: dark)
+
+!! 다크모드도 설정에서 적용법에 대해 지정 가능 !!
+
+------------------------------------------------------
+
+<div class="w-16 h-16 bg-red-300 sm:w-20 sm:h-20 sm:bg-blue-300 md:w-32 md:h-32 md:bg-green-300">
+  hello world
+</div>
+
+<div class="landscape:hidden">
+  <p>
+    This experience is designed to be viewed in landscape. Please rotate your
+    device to view the site.
+  </p>
+</div>
+
+------------------------------------------------------
