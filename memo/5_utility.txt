@@ -59,3 +59,34 @@ script cdn에 plugin 추가 가능
 .sr-only로 웹접근성을 제공
 
 ------------------------------------------------------
+
+config를 이용해 픽셀 단위를 설정
+
+const borderWidth = {
+  3: '3px',
+  5: '5px',
+  'custom': '10rem'
+}
+
+theme.extend.borderWidth를 넣어서 기본적으로 지원안하는
+.border-3, .border-5, .border-custom 을 사용가능
+
+
+const customFont = {
+  10: '10px',
+  11: '11px',
+  12: '12px',
+  13: '13px',
+  14: '14px',
+  15: '15px',
+  16: '16px',
+  17: '17px',
+  18: '18px',
+  'custom': '100px'
+}
+
+theme.extend.fontSize: customFont을 할당해
+.text-custom, .text-10이 가능
+=> arbitary value를 쓰던가 ㅇㅇ
+
+------------------------------------------------------
